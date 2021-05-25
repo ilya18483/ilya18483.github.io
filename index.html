@@ -204,24 +204,141 @@
         <section class="resume-section" id="education">
             <div class="resume-section-content">
                 <h2 class="mb-5">Education</h2>
+                <!--MSc Information-->
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">King's College London, London, UK</h3>
                         <div class="subheading mb-3">Master of Science</div>
                         <div>Human and Applied Physiology</div>
                         <p>Pending</p>
+                        <div id="mscAccordion">
+                            <!-- Taught Modules Info -->
+                            <div class="card">
+                              <div class="card-header" id="taughtModuleHeader">
+                                <h3 class="mb-0">
+                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#taughtModules" aria-expanded="false" aria-controls="taughtModules">
+                                    Taught Modules
+                                  </button>
+                                </h3>
+                              </div>
+                          
+                              <div id="taughtModules" class="collapse" aria-labelledby="taughtModuleHeader" data-parent="#mscAccordion">
+                                <div class="card-body">
+                                  <ul>
+                                      <li>Cardiovascular and Respiratory Physiology from Rest to Exhaustive Exercise</li>
+                                      <li>Skeletal Muscle Function and Plasticity from Movement to Molecules</li>
+                                      <li>Human Aerospace and Environmental Physiology</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Research Modules Info -->
+                            <div class="card">
+                                <div class="card-header" id="researchModuleHeader">
+                                  <h3 class="mb-0">
+                                    <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#researchModules" aria-expanded="false" aria-controls="researchModules">
+                                       Research Modules
+                                    </button>
+                                  </h3>
+                                </div>
+                            
+                                <div id="researchModules" class="collapse" aria-labelledby="researchModuleHeader" data-parent="#mscAccordion">
+                                  <div class="card-body">
+                                    <ul>
+                                        <li>Library Project in Human and Applied Physiology</li>
+                                        <li>Research Project in Human and Applied Physiology</li>
+                                    </ul>
+                                    <p><strong>Library Project Title:</strong><br> Role of Nitrogen Lipid Solubility in the Development of Inert Gas Narcosis in Diving</p>
+                                    <p><strong>Final MSc Project Title:</strong><br> Understanding Work of Breathing Associated with Ejection Seat Angle and Clothing </p>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
                     </div>
+                        
                     <div class="flex-shrink-0"><span class="text-primary">September 2020 - Present</span></div>
                 </div>
+                <!--BSc Information-->
                 <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">King's College London, London, UK</h3>
                         <div class="subheading mb-3">Bachelor of Science (Hons)</div>
                         <div>Biomedical Science</div>
                         <p>Upper Second (2:1) with Honours</p>
+                        <!--BSc Modules-->
+                        <div id="bachAccordion">
+                            <!-- Year 1 Modules -->
+                            <div class="card">
+                              <div class="card-header" id="yearOneHeading">
+                                <h3 class="mb-0">
+                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#yearOneModules" aria-expanded="false" aria-controls="yearOneModules">
+                                    Year 1 Modules
+                                  </button>
+                                </h3>
+                              </div>
+                          
+                              <div id="yearOneModules" class="collapse" aria-labelledby="yearOneHeading" data-parent="#bachAccordion">
+                                <div class="card-body">
+                                  <ul>
+                                      <li>Biochemistry</li>
+                                      <li>Skills for Biosciences</li>
+                                      <li>Chemistry for Biosciences</li>
+                                      <li>Cell Biology and Neuroscience</li>
+                                      <li>Fundamentals of Pharmacology</li>
+                                      <li>Fundamentals of Anatomy and Physiology</li>
+                                      <li>Genetics and Molecular Biology</li>
+                                  </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Year 2 Modules -->
+                            <div class="card">
+                              <div class="card-header" id="yearTwoHeading">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#yearTwoModules" aria-expanded="false" aria-controls="yearTwoModules">
+                                    Year 2 Modules
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="yearTwoModules" class="collapse" aria-labelledby="yearTwoHeading" data-parent="#bachAccordion">
+                                <div class="card-body">
+                                    <ul>
+                                        <li>Structural Basis of Human Function</li>
+                                        <li>Endocrinology and Reproduction</li>
+                                        <li>Research Skills in Pharmacology</li>
+                                        <li>Pharmacology and Physiology of Central Nervous System</li>
+                                        <li>Exercise and Environment</li>
+                                        <li>Report on a Physiological Topic</li>
+                                    </ul>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- Year 3 Modules -->
+                            <div class="card">
+                              <div class="card-header" id="yearThreeHeading">
+                                <h5 class="mb-0">
+                                  <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#yearThreeModules" aria-expanded="false" aria-controls="yearThreeModules">
+                                    Year 3 Modules
+                                  </button>
+                                </h5>
+                              </div>
+                              <div id="yearThreeModules" class="collapse" aria-labelledby="yearThreeHeading" data-parent="#bachAccordion">
+                                <div class="card-body">
+                                    <ul>
+                                        <li>Cardiovascular and Respiratory Control</li>
+                                        <li>Extreme Physiology</li>
+                                        <li>Vascular Physiology</li>
+                                        <li>Project Design in Physiology</li>
+                                    </ul>
+                                    <p><strong>Final BSc Dissertation Title:</strong><br> The role of reactive oxygen species in the development of gestational diabetes mellitus</p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
                     </div>
                     <div class="flex-shrink-0"><span class="text-primary">September 2017 - May 2020</span></div>
                 </div>
+                <!--A-level Information-->
                 <div class="d-flex flex-column flex-md-row justify-content-between">
                     <div class="flex-grow-1">
                         <h3 class="mb-0">Ashbourne College</h3>
